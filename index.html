@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="neftci.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Neftçi</title>
+    <style>
+      .melumat{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      .div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .footer{
+        line-height: 40px;
+        background-color: #F8F9FA;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        letter-spacing: 5px;
+        font-weight: bold;
+      }
+    </style>
+</head>
+<body style="background-color: rgb(232, 228, 228);">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Neftçi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Info
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  <div class="melumat">
+    <div class="card m-4" style="width: 18rem;">
+      <img src="neftci1.jpg" class="card-img-top rounded-circle p-3" style="height: 320px;">
+      <div class="card-body">
+        <h5 class="card-title">Yaşar Babayev</h5>
+        <p class="card-text">1941 Gəncədə anadan olmuşdu. 1963-1971 Neftçi PFK uğurları üçün çalışıb. O Neftçidə 219 oyuna çıxıb. 12 sentyabr 2021 ildə gözlərin əbədi yummuşdur.</p>
+        <a href="#" class="btn btn-primary">Ətraflı</a>
+      </div>
+    </div>
+    <div class="card w-20 m-4" style="width: 18rem;">
+      <img src="neftci2.jpeg" style="height: 320px;" class="card-img-top rounded-circle p-3">
+      <div class="card-body">
+        <h5 class="card-title">Anatoli Banişevski</h5>
+        <p class="card-text">1946 ildə Azərbaycan və SSRİ tarixinin ən güclü hücumçusu anadan olmuşdu. O Neftçinin heyətində 288 oyuna 121 qol vurmuşdu. Neftçinin və Azərbaycan futbolunun əfsanəsi 1991 ildə gözlərini əbədi yumdu.</p>
+        <a href="#" class="btn btn-primary">Ətraflı</a>
+      </div>
+    </div>
+    <div class="card w-20 m-4" style="width: 18rem;">
+      <img src="neftci2.jpg" style="height: 320px;" class="card-img-top rounded-circle p-3">
+      <div class="card-body">
+        <h5 class="card-title">Kazbek Tuayev</h5>
+        <p class="card-text">1940 ildə Ələtdə anadan olmuşdur. Kazbek Tuayev Azərbaycan tarixinin ən güclü cinah hücumçusu idi. Lev Yaşın Ən çox qorxduğum zərbə Kazbek Tuayevin olub. O 1961-1970 və 1971-1972 illərdə Neftçinin şərəfin qoruyub</p>
+        <a href="#" class="btn btn-primary">Ətraflı</a>
+      </div>
+    </div>
+    <div class="card w-20 m-4" style="width: 18rem;">
+      <img src="neftci3.jpg" style="height: 320px;" class="card-img-top rounded-circle p-3">
+      <div class="card-body">
+        <h5 class="card-title">Sergey Kramarenko</h5>
+        <p class="card-text">Kramarenko 1946 ildə anadan olmuşdur. O Neftçi tarixinin ən yaxşı qapıçısı olub. 1964-1975, 1977-1981 və 1983-1984 seonlarda Neftçinin şərəfin qoruyub. Kramarenko 25 mart 2008 ildə gözlərini əbədi yumdu</p>
+        <a href="#" class="btn btn-primary">Ətraflı</a>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide w-75">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="neftci7.jpg" class="d-block w-100 img-thumbnail">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>SSRI üçüncülük.</h5>
+            <p>Sevinc bəxş edən komanda.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="neftci8.jpg" class="d-block w-100 img-thumbnail">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white;">Böyükağa Hacıyev İmperiyası.</h5>
+            <p style="color: white;">Azərbaycan Futboluna ümid verən heyət.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="neftci9.jpg" class="d-block w-100 img-thumbnail">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 style="color: white;">Korrupsiyaya uğramış klub.</h5>
+            <p style="color: white;">Qanımızı qaraldan heyət.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="w-75 my-4 mx-auto">
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Böyükağa Hacıyev wiki
+          </button>
+        </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Naxçıvan futbolunun şagirdidir. SSRİ çempionatının 2-ci liqası klubu olan "Araz-Naxçıvan"da müdafiəçi mövqeyində oynamışdır.Futboçunun karyerasının sonunda məşqçi kimi çalışmağa başladı. 1999—2000-ci illərdə "Araz-Naxçıvan"ın baş məşqçisi olmuşdur. Klub maliyyə çətinlikləri səbəbində dağıldığı üçün Böyükağa Hacıyev İrana yollanmış və "Maşın Sazi Təbriz" klubunda məşqçi (2002—2003), baş məşqçi (2003—2004) vəzifəsində çalışmışdır. 2004—2005-ci illərdə "Traktor Sazi klubunda baş məşqçi olmuşdur. Bu klublarda işləməklə Böyükağa Hacıyev böyük iş təcrübəsi qəzanmışdır.2005-ci ildə Hacıyev Azərbaycana qayıdaraq Azərbaycan milli futbol komandasında baş məşqçi Vaqif Sadıqovun köməkçisi işləmişdir.2006-cı ildə çempionatın sonuna 8 tur qalmış "Bakı" klubunun baş məşqçisi olmuş və ilk çempionluğunu bu klubla qazanmışdır. Ancaq 2006/07 mövsümündə komanda liqada yalnız 3-cü yeri tutdu və Avropa Liqasında zəif çıxış etdi. 2007-ci ilin sentyabrında Böyükağa Hacıyev komandadan ayrıldı və bir müddət işsiz qaldı. 2008-ci ilin iyun ayında "Araz" futzal komandasının baş məşqçisi olmuşdur.2009—2010-cü ildə "Standard Sumqayıt" klubunu çalışdırmışdır. Lakin bu onun üçün uğursuz olmuşdur və komanda liqada sonuncu yerlərdə qərarlaşaraq elitanı tərk etmişdir. Bundan sonra klub dağılmışdır.2011-ci ildə gözlənilmədən "Neftçi" klubunun prezidenti Sadıq Sadıqov Hacıyevi klubunun baş məşqçisi təyin edir. Böyükağa Hacıyevin baş məşqçiliyi ilə "Neftçi" 2011/12 mövsümündə çempion olur və ardıcıl 2-ci ümumilikdə isə 7-ci çempionluğunu qazanır. Növbəti mövsüm "Neftçi" ilə Avropa Liqasının qrup mərhələsində çıxış edərək Azərbaycan futbolunda tarix yazır.2012/13 mövsümündə "Neftçi" ilə yenidən çempion olur və bu dəfə hədəfi Çempionlar Liqasının qrup mərhələsi olur. Lakin 1-ci təsnifat mərhələsində Albaniyanın Skenderbeu klubuna iki görüşün nəticəsinə görə (0:0, 1:0) məğlub olur və söz verdiyi kimi istefa verir.2014-cü ildə yenidən "Neftçi"yə qayıdır.16 mart 2018-ci ildə baş vermiş infarkt nəticəsində vəfat etmiş və Keşlə qəbiristanlığında dəfn olunmuşdur.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Anatoliy Banişevski wiki
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Anatoli Andreyeviç Banişevski (23 fevral 1946, Bakı – 10 dekabr 1997, Bakı) — Ukrayna əsilli Azərbaycan futbolçusu və məşqçisi.
+              Anatoli Banişevski UEFA-nın versiyasına görə 2004-cü ildə Azərbaycanda son 50 ilin ən yaxşı futbolçusu seçilib.Uşaq futboluna Bakının "Lokomotiv" klubunda başlayıb. Razində (indiki Bakıxanov qəsəbəsi) "Lenin komsomolu" adına stadionda "Lokomotiv"lə "Spartak"ın oyunu keçirilirdi. "Neftyanik" (indiki "Neftçi") baş məşqçisi Boris Arkadyev və Ələkbər Məmmədov da oyuna baxır, ən perspektivli oyunçuları seçirdilər. Lokomotiv 4:3 hesabı ilə qalib gəlsə də, rəqibin qapısına vurulan topun üçünü də Banişevski vurmuşdu. Banişevskinin böyük futbola sıçrayışı bax, həmin oyundan başladı. 16 yaşında "Neftyanik"ə cəlb olunan Banişevski 1963-cü ildə komandanın əsas heyətində debüt edib. O, peşəkar karyerası ərzində - 1963-cü ildən 1978-ci ilədək yalnız "Neftçi" klubunda çıxış edib. "Neftçi"nin 1966-cı ildə futbol üzrə SSRİ çempionatının bürünc medalını qazanmasında onun böyük əməyi olub. 1966-cı ildə "Neftyanik" bürünc medal qazanandan sonra Heydər Əliyev ona ev vermişdi.
+              Ümumiyyətlə, Anatoli Banişevski SSRİ çempionatının güclülər dəstəsində 212 matçda (81 qol), birinci liqada isə 76 qarşılaşmada (40 qol) forma geyinib.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Vəli Qasımov wiki
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Uşaqlıq illərini Gəncədə evlərinin yaxınlığında yerləşən "Metallurq" stadionunda keçirib; həm futbol, həm də həndbol oynayıb. 14 yaşında həndbolla vidalaşıb və bütün diqqətini futbola yönəldib. Futbol oynamağa doğma Gəncə şəhərinin Pişevik klubunun gənclər komandasında başlayıb. İlk məşqçisi Yusif Məhərrəmov olub. Məhz o, böyük futbola Vəlini ümidləndirib və bir futbolçu kimi yetişməsində tövsiyələrini əsirgəməyib.
+              13-14 yaşında ikən bir dəfə istədiyi turnirə düşə bilmiyib, bundan inciyib. Bu hadisədən çox keçməmiş Xarkova üz tutub. Orada futbol məktəbinə daxil olub. Xarkovun "Trudovıye Rezervı" komandasında çıxış edib.15 yaşında ikən SSRİ yığmasının tərkibinə daxil edilib və 16 yaşında artıq öz yaş qrupunda Avropa çempionu olub.Peşəkar karyerasına "Mayak"da oynayaraq başlayıb. Daha sonra bir çox komandalardan dəvət alıb. O, Ukraynanın "Metallist" klubunun düşərgəsinə yollanıb. Bir mövsüm "Metallist" Xarkov klubunun cavan futbolçular klubunda oynadıqdan sonra əsas heyətə cəlb olunub.1987-ci ildə o evə dönməyə razı olub[4]. Bir neçə il SSRİ çempionatının yüksək və birinci liqalarında "Neftçi" (Bakı) klubunun tərkibində oynayıb.1992-ci ildə Daşkənddə Aleksandr Tarxanov ilə birlikdə məşq etməyə başlayıb. Ancaq çempionatın keçirilməyəcəyi bəlli olduqda, Tarxanov ilə birlikdə Moskva "Spartak"ına getməyə qərar verib."Spartak"da, yüksək səviyyəli hücumçuların çoxluğu səbəbindən çox çıxış edə bilməyib və bu klubda çıxdığı 6 görüşdə qol vurmayıb. Buna görə 1992-ci ortalarında klub rəhbərliyi onun şəhərin digər klubu olan "Dinamo" klubuna keçidinə razılıq verib. 12 iyul 1992-ci ildə "Uralmaş" ilə oyunda (6:2) 3 qol vurmaqla Rusiya Premyer Liqasında het-trik edən ilk legioner futbolçu olub. 11 sentyabr 1992-ci ildə "Asmaral" ilə oyunda (6:1) Rusiya Premyer Liqasının tarixində bir matçda 4 qol vuran ilk futbolçu olub. Qasımov mövsümün sonunda 17 oyunda 16 qol vurmaqla Rusiya Premyer Liqasının bombardiri olub. Əsas çempionatda Yuri Matveyev 20 qolla bombardirlər siyahısına liderlik etsə də, çempionun məlum olacağı pley-off mərhələsində iştirak etmədiyinə görə Vəli Qasımov bombardir kimi qəbul olunub. O, "Dinamo" Moskva klubunda başqa bir rekorda da imza atıb — o, Rusiya Premyer Liqasında bir mövsümdə iki dəfə het-trik edən 12 futbolçudan biridir.1992-ci ilin sonunda Segunda klubu "Real Betis" ilə 1992/93 mövsümünün sonuna qədər müqavilə imzalayıb. 1992/93 mövsümünün yarısını, 1993/94 və 1994/95 mövsümündə "Real Betis"də çıxış edən Qasımov 1994/95 mövsümündə "Real Betis"in La Liqaya yüksəlməsində böyük rol oynamışdır. Bu dövr ərzində o, 42 matç keçirib və 9 qol vurmağı bacarıb. 1994/95 mövsümünün sonunda Qasımov başqa bir La Liqa təmsilçisi "Albasete" klubu ilə müqavilə imzalayıb.İspaniyadakı uğurlu karyerası "Tenerife" oyunçusu Yokanoviçin ona verdiyi zədə səbəbindən (2 ayaq barmağı qırılıb) dayandırıb. Qasımov bu zədədən sonra 5 ay çıxış edə bilmədi və "Albasete" eyni zamanda Segundaya düşdü. Əvvəlcə Qasımov ikinci divizionda oynamaqdan imtina etsə də, altı ay daha oyunsuz qaldıqdan sonra digər Segunda klubu olan "Esixa" ilə çıxış etməyə razı olub. Mövsümün sonunda isə "Esixa" Segunda División B-yə düşüb."Esixa"nın aşağı liqaya düşməsindən sonra o, Portuqaliyanın "Vitoriya" Setubal klubuna transfer olub. İlk mövsüm klubu 13-cü pilləni tutsa da, növbəti mövsüm "Vitoriya" 5-ci yerin sahibi olub. 1999-cü ilin yayında Qasımov Portuqaliya 3-cü futbol divizionu təmsilçisi "İmortal" klubuna transfer olub. Bu klubda 2 mövsüm keçirsə də klubunu yuxarı pillələrə çıxara bilməyib və 2001-ci ilin yayında klubdan ayrılıb. Qasımov bu qərarla həm də futbol karyerasını da başa vurub.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center;">
+      <img src="neftci10.jpg" class="img-thumbnail w-75" style="padding: 20px;" >
+    </div>
+    <div class="div">
+      <div  class="w-35 mx-auto my-3 float-end">
+      <div class="card text-end">
+        <div class="card-header">
+          Ivan Yankoviç
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p><strong>Apoelin baş məşqçisi İvan Yankoviç oyundan qabaq:</strong></p>
+            <p>Neftçiyə məğlubiyyət bizə <strong>şok</strong>  oldu.</p>
+            <footer class="blockquote-footer">Apoelin baş məşqçisi <cite title="Source Title">İvan Yankoviç.</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <div class="w-65 mx-auto my-3 float-start">
+      <div class="card">
+        <div class="card-header">
+          Apoellə oyundan əvvəl
+        </div>
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p><strong>Böyükağa Hacıyev Apoellə oyundan qabaq bunları söyləmişdi:</strong> <br>
+                "Apoel unutmasın ki, Neftçiyə qarşı oynayacaq"<br>
+                "Arxı tullanmamış, hop deməzlər"
+              </p>
+              <footer class="blockquote-footer">Neftçinin baş məşqçisi <cite title="Source Title">Böyükağa Hacıyev</cite></footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </div>
+      <h4 style="text-align: center; color: white; font-style: italic;" class="text-uppercase lead bg-dark">Neftçili olmaq özü böyük şərəfdi. Buda hər adama nəsib olmur.Allah sənə çox şükür bu günü yaşatdın bizə!!!</h4>
+    <div class="footer">
+      <p>Designed by Farid &copy;2023</p>
+    </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
